@@ -1,0 +1,194 @@
+{
+  "acidez": {
+    "titulo": "Acidez Estomacal",
+    "intro": "La acidez estomacal ocurre cuando los ácidos del estómago suben al esófago, lo que causa una sensación de ardor o quemazón detrás del esternón. Este ardor es lo que comúnmente llamamos \"reflujo ácido\".",
+    "causas": [
+      "Reflujo gastroesofágico (ERGE)",
+      "Comer en exceso",
+      "Alimentos grasos, picantes, o ácidos",
+      "Estrés",
+      "Ciertos medicamentos como los antiinflamatorios no esteroides AINEs",
+      "Obesidad",
+      "Tabaco",
+      "Embarazo"
+    ],
+    "sintomas": [
+      "Sensación de ardor en el pecho",
+      "Sabor amargo o ácido en la boca",
+      "Dificultad para tragar",
+      "Tos crónica o ronquera",
+      "Dolor en el pecho",
+      "Eructos frecuentes"
+    ],
+    "soluciones": [
+      "Comer porciones pequeñas",
+      "Evitar alimentos irritantes",
+      "No acostarse después de comer",
+      "Reducir el estrés"
+    ]
+  },
+  "reflujo": {
+    "titulo": "Reflujo Gastroesofágico (ERGE)",
+    "intro": "El reflujo gastroesofágico ocurre cuando los ácidos del estómago regresan hacia el esófago de manera regular, causando irritación y daño en la pared del esófago.",
+    "causas": [
+      "Disfunción del esfínter esofágico inferior",
+      "Hernia de hiato",
+      "Presión abdominal (obesidad, embarazo)",
+      "Comidas pesadas o grasosas",
+      "Consumo de alcohol, café o bebidas carbonatadas"
+    ],
+    "sintomas": [
+      "Acidez o ardor en el pecho",
+      "Regurgitación de alimentos o ácido",
+      "Dificultad para tragar",
+      "Dolor en el pecho",
+      "Tos crónica o ronquera",
+      "Náuseas o vómitos"
+    ],
+    "soluciones": [
+      "Evitar alimentos irritantes",
+      "No comer tarde en la noche",
+      "Realizar cambios en el estilo de vida",
+      "Tomar medicamentos si es necesario"
+    ]
+  },
+  "helicobacter_pylori": {
+    "titulo": "Helicobacter Pylori",
+    "intro": "La Helicobacter pylori es una bacteria que puede vivir en el estómago y dañar su revestimiento, siendo una de las principales causas de úlceras gástricas.",
+    "causas": [
+      "Contacto con heces, saliva o alimentos contaminados",
+      "Ambiente ácido del estómago que permite su supervivencia"
+    ],
+    "sintomas": [
+      "Dolor abdominal",
+      "Náuseas",
+      "Ardor estomacal",
+      "Vómitos con sangre o heces negras"
+    ],
+    "soluciones": [
+      "Tratamiento con antibióticos",
+      "Medicamentos para reducir la acidez estomacal"
+    ]
+  },
+  "estrenimiento": {
+    "titulo": "Estreñimiento",
+    "intro": "El estreñimiento ocurre cuando las evacuaciones intestinales son infrecuentes o difíciles, causando incomodidad o dolor.",
+    "causas": [
+      "Dieta baja en fibra",
+      "Falta de agua",
+      "Poca actividad física",
+      "Estrés",
+      "Ciertos medicamentos"
+    ],
+    "sintomas": [
+      "Evacuaciones difíciles",
+      "Heces duras",
+      "Dolor o incomodidad al evacuar",
+      "Sensación de evacuación incompleta"
+    ],
+    "soluciones": [
+      "Consumir más fibra",
+      "Beber más agua",
+      "Hacer ejercicio regularmente"
+    ]
+  },
+  "diarrea": {
+    "titulo": "Diarrea",
+    "intro": "La diarrea se caracteriza por evacuaciones líquidas y frecuentes, generalmente asociadas a infecciones, alergias o trastornos digestivos.",
+    "causas": [
+      "Infecciones bacterianas, virales o parasitarias",
+      "Intolerancias alimentarias",
+      "Enfermedades como el síndrome del intestino irritable"
+    ],
+    "sintomas": [
+      "Heces líquidas",
+      "Dolor abdominal",
+      "Náuseas",
+      "Fiebre en algunos casos"
+    ],
+    "soluciones": [
+      "Beber líquidos para evitar la deshidratación",
+      "Evitar alimentos irritantes",
+      "Consultar al médico si dura más de unos días"
+    ]
+  },
+  "sibo": {
+    "titulo": "SIBO (Sobrecrecimiento Bacteriano del Intestino Delgado)",
+    "intro": "El SIBO ocurre cuando hay un crecimiento excesivo de bacterias en el intestino delgado, interfiriendo con la absorción de nutrientes.",
+    "causas": [
+      "Alteraciones en la motilidad intestinal",
+      "Uso prolongado de antibióticos",
+      "Enfermedades como la diabetes"
+    ],
+    "sintomas": [
+      "Distensión abdominal",
+      "Dolor",
+      "Gases",
+      "Diarrea o estreñimiento",
+      "Malabsorción de nutrientes"
+    ],
+    "soluciones": [
+      "Tratamiento con antibióticos específicos",
+      "Cambios en la dieta"
+    ]
+  },
+  "sii": {
+    "titulo": "Síndrome del Intestino Irritable (SII)",
+    "intro": "El SII es un trastorno gastrointestinal crónico que afecta el funcionamiento normal del intestino, a menudo asociado con estrés y ansiedad.",
+    "causas": [
+      "Estrés",
+      "Alteraciones en la motilidad intestinal",
+      "Sensibilidades alimentarias"
+    ],
+    "sintomas": [
+      "Dolor abdominal",
+      "Diarrea o estreñimiento",
+      "Gases",
+      "Distensión abdominal"
+    ],
+    "soluciones": [
+      "Controlar el estrés",
+      "Evitar ciertos alimentos",
+      "Tomar medicamentos si es necesario"
+    ]
+  },
+  "intolerancias": {
+    "titulo": "Intolerancias Alimentarias",
+    "intro": "Las intolerancias alimentarias ocurren cuando el sistema digestivo no puede procesar ciertos alimentos de manera adecuada. Las más comunes son la intolerancia a la lactosa y al gluten.",
+    "causas": [
+      "Déficit de lactasa para digerir lactosa",
+      "Sensibilidad o intolerancia al gluten (enfermedad celíaca)"
+    ],
+    "sintomas": [
+      "Dolor abdominal",
+      "Gases",
+      "Diarrea",
+      "Fatiga (en casos de celiaquía)"
+    ],
+    "soluciones": [
+      "Evitar los alimentos que causan problemas",
+      "Consultar a un médico para pruebas específicas"
+    ]
+  },
+  "microbiota": {
+    "titulo": "Microbiota Intestinal",
+    "intro": "La microbiota intestinal es el conjunto de microorganismos que viven en el intestino y que son clave para la digestión, la producción de vitaminas y la función inmunológica.",
+    "causas": [
+      "Dieta inadecuada",
+      "Estrés",
+      "Uso excesivo de antibióticos",
+      "Enfermedades"
+    ],
+    "sintomas": [
+      "Distensión abdominal",
+      "Gases",
+      "Diarrea o estreñimiento",
+      "Fatiga",
+      "Problemas en la piel"
+    ],
+    "soluciones": [
+      "Mantener una dieta rica en fibra y probióticos",
+      "Evitar el uso innecesario de antibióticos"
+    ]
+  }
+}
