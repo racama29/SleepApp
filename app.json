@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "FramaApp",
-    "slug": "FramaApp",
+    "name": "Farmaapp",
+    "slug": "Farmaapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Logo-Sanafarmacia-v1.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -16,13 +16,19 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.rafa.farmaapp",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/Logo-Sanafarmacia-v1.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/Logo-Sanafarmacia-v1.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e06c4279-df81-49fd-aaec-221933cc438b"
+      }
     }
   }
 }

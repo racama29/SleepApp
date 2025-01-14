@@ -1,20 +1,24 @@
-import React from 'react';
+import React, { useLayoutEffect } from 'react';
 import { View, TouchableOpacity, Text, StyleSheet, Image, FlatList } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
 const data = [
-  { key: 'acidez', title: 'Acidez', image: require('./../../assets/icon.png') },
-  { key: 'reflujo', title: 'Reflujo', image: require('./../../assets/icon.png') },
-  { key: 'estrenimiento', title: 'Estreñimiento', image: require('./../../assets/icon.png') },
-  { key: 'diarrea', title: 'Diarrea', image: require('./../../assets/icon.png') },
-  { key: 'sibo', title: 'Sobrecrecimiento Bacteriano del Intestino Delgado', image: require('./../../assets/icon.png') },
-  { key: 'sii', title: 'Síndrome del Intestino Irritable', image: require('./../../assets/icon.png') },
-  { key: 'intolerancias', title: 'Intolerancias Alimentarias', image: require('./../../assets/icon.png') },
-  { key: 'microbiota', title: 'Microbiota Intestinal', image: require('./../../assets/icon.png') },
+  { key: 'acidez', title: 'Acidez', image: require('./../../assets/acidez.png') },
+  { key: 'reflujo', title: 'Reflujo', image: require('./../../assets/reflujo.png') },
+  { key: 'estrenimiento', title: 'Estreñimiento', image: require('./../../assets/estreñimiento.png') },
+  { key: 'diarrea', title: 'Diarrea', image: require('./../../assets/diarrea.png') },
+  { key: 'sibo', title: 'Sibo', image: require('./../../assets/hinchazon.png') },
+  { key: 'sii', title: 'Síndrome del Intestino Irritable', image: require('./../../assets/enfermedad intestinal.png') },
+  { key: 'intolerancias', title: 'Intolerancias alimentarias', image: require('./../../assets/iintolerancia.png') },
+  { key: 'microbiota', title: 'Microbiota Intestinal', image: require('./../../assets/sibo.png') },
 ];
 
 export default function Home() {
   const navigation = useNavigation();
+
+  useLayoutEffect(() => {
+    navigation.setOptions({ headerShown: false });
+  }, [navigation]);
 
   const navigateToAfeccion = (afeccion) => {
     navigation.navigate('Afeccion', { afeccion });
@@ -44,6 +48,8 @@ export default function Home() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    marginTop: 100,
+    marginBottom: 40,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#f7f7f7',
@@ -57,23 +63,26 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   button: {
-    width: 150,
-    height: 150,
+    width: 200,
+    height: 200,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#fff',
     borderRadius: 10,
     elevation: 3,
-    margin: 10,
+    margin: 30,
+    backgroundColor: '#1983c6',
   },
   image: {
-    width: 80,
-    height: 80,
-    marginBottom: 10,
+    width: 100,
+    height: 100,
+    marginBottom: 15,
+    resizeMode: 'contain',
+    tintColor: '#fff',
   },
   buttonText: {
     fontSize: 16,
     fontWeight: 'bold',
-    color: '#333',
+    color: '#ffffff',
+    textAlign: 'center',
   },
 });

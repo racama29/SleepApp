@@ -15,9 +15,33 @@ export default function Afeccion({ route }) {
     navigation.setOptions({ headerShown: false });
   }, [navigation]);
 
+  const getImageSource = (imageName) => {
+    switch (imageName) {
+      case 'acidez.png':
+        return require('./../../assets/acidez.png');
+      case 'reflujo.png':
+        return require('./../../assets/reflujo.png');
+      case 'estreñimiento.png':
+        return require('./../../assets/estreñimiento.png');
+      case 'diarrea.png':
+        return require('./../../assets/diarrea.png');
+      case 'hinchazon.png':
+        return require('./../../assets/hinchazon.png');
+      case 'enfermedad intestinal.png':
+        return require('./../../assets/enfermedad intestinal.png');
+      case 'iintolerancia.png':
+        return require('./../../assets/iintolerancia.png');
+      case 'sibo.png':
+        return require('./../../assets/sibo.png');
+
+      default:
+        return require('./../../assets/icon.png');
+    }
+  };
+
   const renderHeader = () => (
     <View style={styles.view}>
-      <Image source={require('./../../assets/icon.png')} style={styles.image}/>
+      <Image source={getImageSource(data.imagen)} style={styles.image}/>
       <Text style={styles.title}>{data.titulo}</Text>
       <Text style={styles.intro}>{data.intro}</Text>
     </View>
@@ -25,7 +49,7 @@ export default function Afeccion({ route }) {
 
   const renderFooter = () => (
     <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Home')}>
-      <Text style={styles.buttonText}>Volver a Home</Text>
+      <Text style={styles.buttonText}>Volver</Text>
     </TouchableOpacity>
   );
 
@@ -63,27 +87,28 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   image: {
-    width: 100,
-    height: 100,
+    width: 150,
+    height: 150,
     resizeMode: 'contain',
-    marginBottom: 20,
+    margin: 20,
+    tintColor: '#1983c6',
   },
   title: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: '#333',
+    color: '#1983c6',
     marginBottom: 10,
   },
   intro: {
-    fontSize: 16,
+    fontSize: 20,
     color: '#666',
     textAlign: 'center',
     marginBottom: 20,
   },
   sectionTitle: {
-    fontSize: 20,
+    fontSize: 24,
     fontWeight: 'bold',
-    color: '#007BFF',
+    color: '#1983c6',
   },
   card: {
     margin: 10,
@@ -91,12 +116,12 @@ const styles = StyleSheet.create({
     elevation: 3,
   },
   listItem: {
-    fontSize: 16,
+    fontSize: 19,
     paddingVertical: 5,
     color: '#333',
   },
   button: {
-    backgroundColor: '#007BFF',
+    backgroundColor: '#1983c6',
     padding: 10,
     borderRadius: 5,
     alignItems: 'center',

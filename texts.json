@@ -2,6 +2,7 @@
   "acidez": {
     "titulo": "Acidez Estomacal",
     "intro": "La acidez estomacal ocurre cuando los ácidos del estómago suben al esófago, lo que causa una sensación de ardor o quemazón detrás del esternón. Este ardor es lo que comúnmente llamamos \"reflujo ácido\".",
+    "imagen": "acidez.png",
     "causas": [
       "Reflujo gastroesofágico (ERGE)",
       "Comer en exceso",
@@ -30,6 +31,7 @@
   "reflujo": {
     "titulo": "Reflujo Gastroesofágico (ERGE)",
     "intro": "El reflujo gastroesofágico ocurre cuando los ácidos del estómago regresan hacia el esófago de manera regular, causando irritación y daño en la pared del esófago.",
+    "imagen": "reflujo.png",
     "causas": [
       "Disfunción del esfínter esofágico inferior",
       "Hernia de hiato",
@@ -55,6 +57,7 @@
   "helicobacter_pylori": {
     "titulo": "Helicobacter Pylori",
     "intro": "La Helicobacter pylori es una bacteria que puede vivir en el estómago y dañar su revestimiento, siendo una de las principales causas de úlceras gástricas.",
+    "imagen": "icon.png",
     "causas": [
       "Contacto con heces, saliva o alimentos contaminados",
       "Ambiente ácido del estómago que permite su supervivencia"
@@ -73,6 +76,7 @@
   "estrenimiento": {
     "titulo": "Estreñimiento",
     "intro": "El estreñimiento ocurre cuando las evacuaciones intestinales son infrecuentes o difíciles, causando incomodidad o dolor.",
+    "imagen": "estreñimiento.png",
     "causas": [
       "Dieta baja en fibra",
       "Falta de agua",
@@ -95,6 +99,7 @@
   "diarrea": {
     "titulo": "Diarrea",
     "intro": "La diarrea se caracteriza por evacuaciones líquidas y frecuentes, generalmente asociadas a infecciones, alergias o trastornos digestivos.",
+    "imagen": "diarrea.png",
     "causas": [
       "Infecciones bacterianas, virales o parasitarias",
       "Intolerancias alimentarias",
@@ -115,6 +120,7 @@
   "sibo": {
     "titulo": "SIBO (Sobrecrecimiento Bacteriano del Intestino Delgado)",
     "intro": "El SIBO ocurre cuando hay un crecimiento excesivo de bacterias en el intestino delgado, interfiriendo con la absorción de nutrientes.",
+    "imagen": "hinchazon.png",
     "causas": [
       "Alteraciones en la motilidad intestinal",
       "Uso prolongado de antibióticos",
@@ -135,6 +141,7 @@
   "sii": {
     "titulo": "Síndrome del Intestino Irritable (SII)",
     "intro": "El SII es un trastorno gastrointestinal crónico que afecta el funcionamiento normal del intestino, a menudo asociado con estrés y ansiedad.",
+    "imagen": "enfermedad intestinal.png",
     "causas": [
       "Estrés",
       "Alteraciones en la motilidad intestinal",
@@ -155,6 +162,7 @@
   "intolerancias": {
     "titulo": "Intolerancias Alimentarias",
     "intro": "Las intolerancias alimentarias ocurren cuando el sistema digestivo no puede procesar ciertos alimentos de manera adecuada. Las más comunes son la intolerancia a la lactosa y al gluten.",
+    "imagen": "iintolerancia.png",
     "causas": [
       "Déficit de lactasa para digerir lactosa",
       "Sensibilidad o intolerancia al gluten (enfermedad celíaca)"
@@ -173,6 +181,7 @@
   "microbiota": {
     "titulo": "Microbiota Intestinal",
     "intro": "La microbiota intestinal es el conjunto de microorganismos que viven en el intestino y que son clave para la digestión, la producción de vitaminas y la función inmunológica.",
+    "imagen": "sibo.png",
     "causas": [
       "Dieta inadecuada",
       "Estrés",
