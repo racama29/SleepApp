@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "Farmaapp",
-    "slug": "Farmaapp",
+    "name": "FarmaApp",
+    "slug": "FarmaApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/Logo-Sanafarmacia-v1.png",
+    "icon": "./assets/icono.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -23,11 +23,11 @@
       }
     },
     "web": {
-      "favicon": "./assets/Logo-Sanafarmacia-v1.png"
+      "favicon": "./assets/icono.png"
     },
     "extra": {
       "eas": {
-        "projectId": "e06c4279-df81-49fd-aaec-221933cc438b"
+        "projectId": "b0a09a2d-1ea3-4a9c-abf8-3d227869ab50"
       }
     }
   }

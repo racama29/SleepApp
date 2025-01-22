@@ -2,13 +2,15 @@ import { StyleSheet, View, SafeAreaView, ScrollView, Image, TouchableOpacity, Te
 import { Card } from 'react-native-paper';
 import texts from '../../texts.json';
 import * as ScreenOrientation from 'expo-screen-orientation';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigation } from '@react-navigation/native';
 
 export default function Afeccion({ route }) {
   const navigation = useNavigation();
   const { afeccion } = route.params;
   const data = texts[afeccion];
+  const [showConsejos, setShowConsejos] = useState(false);
+
 
   useEffect(() => {
     ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT_UP);
@@ -64,6 +66,17 @@ export default function Afeccion({ route }) {
     </Card>
   );
 
+  const renderConsejos = () => (
+    <Card style={styles.card}>
+      <Card.Title title="Consejos" titleStyle={styles.sectionTitle} />
+      <Card.Content>
+        {data.consejos.map((item, index) => (
+          <Text key={index} style={styles.listItem}>• {item}</Text>
+        ))}
+      </Card.Content>
+    </Card>
+  );
+
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView overScrollMode='never'>
@@ -71,6 +84,10 @@ export default function Afeccion({ route }) {
         {renderList('Causas comunes:', data.causas)}
         {renderList('Síntomas:', data.sintomas)}
         {renderList('Soluciones:', data.soluciones)}
+        <TouchableOpacity style={styles.button} onPress={() => setShowConsejos(!showConsejos)}>
+          <Text style={styles.buttonText}>{showConsejos ? 'Ocultar Consejos' : 'Mostrar Consejos'}</Text>
+        </TouchableOpacity>
+        {showConsejos && renderConsejos()}
         {renderFooter()}
       </ScrollView>
     </SafeAreaView>
@@ -90,7 +107,8 @@ const styles = StyleSheet.create({
     width: 150,
     height: 150,
     resizeMode: 'contain',
-    margin: 20,
+    marginTop: 40,
+    marginBottom: 15,
     tintColor: '#1983c6',
   },
   title: {

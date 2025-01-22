@@ -39,7 +39,7 @@ export default function Home() {
         keyExtractor={item => item.key}
         numColumns={2}
         columnWrapperStyle={styles.row}
-        contentContainerStyle={styles.grid}
+        contentContainerStyle={{ flexGrow: 1, justifyContent: 'center' }}
       />
     </View>
   );
@@ -48,14 +48,9 @@ export default function Home() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: 100,
-    marginBottom: 40,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#f7f7f7',
-  },
-  grid: {
-    justifyContent: 'center',
   },
   row: {
     flex: 1,
@@ -63,8 +58,8 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   button: {
-    width: 200,
-    height: 200,
+    width: 180,
+    height: 180,
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 10,
@@ -73,8 +68,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#1983c6',
   },
   image: {
-    width: 100,
-    height: 100,
+    width: 80,
+    height: 80,
     marginBottom: 15,
     resizeMode: 'contain',
     tintColor: '#fff',

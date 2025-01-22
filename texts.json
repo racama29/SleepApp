@@ -26,6 +26,13 @@
       "Evitar alimentos irritantes",
       "No acostarse después de comer",
       "Reducir el estrés"
+    ],
+    "consejos": [
+      "Bicarbonato de sodio o magaldrato: Al neutralizar el ácido gástrico, proporciona alivio rápido de la acidez estomacal.",
+      "Alginato de magnesio: Forma una barrera física o balsa sobre el contenido gástrico para que no genere la sensación de ácido.",
+      "Ácido hialurónico: Se adhiere a la mucosa gástrica para evitar el daño del ácido y regenerar la pared dañada.",
+      "Vinagre de manzana: Aunque ácido, algunos creen que ayuda a equilibrar el pH estomacal y reduce la acidez.",
+      "Manzanilla: Conocida por sus propiedades antiinflamatorias, puede ayudar a calmar la acidez estomacal."
     ]
   },
   "reflujo": {
@@ -52,6 +59,13 @@
       "No comer tarde en la noche",
       "Realizar cambios en el estilo de vida",
       "Tomar medicamentos si es necesario"
+    ],
+    "consejos": [
+      "Probóticos: Ayudan a equilibrar la flora intestinal y mejorar la digestión.",
+      "Ácido hialurónico: Se adhiere a la mucosa gástrica para evitar el daño del ácido y regenerar la pared dañada.",
+      "Glutamina: Ayuda a reparar la mucosa gástrica y reduce la irritación del esófago.",
+      "Cúrcuma: Su suplemento tiene propiedades antiinflamatorias que pueden aliviar la acidez.",
+      "Alginato de sodio: Forma una barrera protectora en el estómago para prevenir el reflujo ácido."
     ]
   },
   "helicobacter_pylori": {
@@ -71,6 +85,12 @@
     "soluciones": [
       "Tratamiento con antibióticos",
       "Medicamentos para reducir la acidez estomacal"
+    ],
+    "consejos": [
+      "Probóticos: Ayudan a equilibrar la flora intestinal y pueden reducir la proliferación de la bacteria.",
+      "Ajo: Tiene propiedades antibacterianas y puede ayudar a combatir la infección.",
+      "Cúrcuma: Su contenido de curcumina tiene efectos antiinflamatorios que pueden aliviar la irritación gástrica.",
+      "Brócoli: Rico en sulforafano, que puede ayudar a eliminar H. pylori."
     ]
   },
   "estrenimiento": {
@@ -94,6 +114,13 @@
       "Consumir más fibra",
       "Beber más agua",
       "Hacer ejercicio regularmente"
+    ],
+    "consejos": [
+      "Laxantes osmóticos: Aumentan la cantidad de agua en el intestino, ablandando las heces y facilitando su movimiento. Ejemplos: polietilenglicol, lactulosa, sorbitol.",
+      "Laxantes estimulantes: Estimulan las terminaciones nerviosas en el intestino, aumentando las contracciones musculares. Ejemplos: bisacodilo, senósidos.",
+      "Laxantes formadores de masa: Contienen fibra o mucílagos que absorben agua y aumentan el volumen de las heces. Ejemplos: metilcelulosa, psyllium.",
+      "Laxantes lubricantes: Recubren las heces y las paredes intestinales con una capa de líquido o aceite. Ejemplos: aceite mineral.",
+      "Laxantes emolientes: Aumentan la penetrabilidad de agua y grasa en las heces, haciéndolas más blandas."
     ]
   },
   "diarrea": {
@@ -115,6 +142,14 @@
       "Beber líquidos para evitar la deshidratación",
       "Evitar alimentos irritantes",
       "Consultar al médico si dura más de unos días"
+    ],
+    "consejos": [
+      "Probióticos: Suplementos que contienen bacterias beneficiosas (como Lactobacillus y Bifidobacterium) para restaurar la flora intestinal.",
+      "Carbón activado: Ayuda a absorber toxinas y reduce la diarrea causada por infecciones leves.",
+      "Pectina de manzana: Suplemento que ayuda a absorber líquidos en el intestino, reduciendo la diarrea, efecto prebiotico.",
+      "Hidratarse con líquidos: Bebe agua, suero oral o caldos claros para prevenir la deshidratación.",
+      "Consumir plátano: Ayuda a reponer potasio y a firmar las heces.",
+      "Tomar arroz blanco: Es fácil de digerir y puede ayudar a reducir la diarrea."
     ]
   },
   "sibo": {
@@ -136,6 +171,11 @@
     "soluciones": [
       "Tratamiento con antibióticos específicos",
       "Cambios en la dieta"
+    ],
+    "consejos": [
+      "Proveedores específicos de cepas: Se recomienda el uso de probióticos con cepas como Lactobacillus y Bifidobacterium que favorecen un equilibrio saludable de bacterias en el intestino.",
+      "Saccharomyces boulardii: Este probiótico específico puede ayudar a restaurar el equilibrio bacteriano y reducir la proliferación de bacterias dañinas en el intestino delgado.",
+      "Probióticos con múltiples cepas: Algunos estudios sugieren que una combinación de cepas probióticas puede ser más efectiva para restablecer la flora intestinal."
     ]
   },
   "sii": {
@@ -157,6 +197,14 @@
       "Controlar el estrés",
       "Evitar ciertos alimentos",
       "Tomar medicamentos si es necesario"
+    ],
+    "consejos": [
+      "Probióticos: Los probióticos son bacterias beneficiosas que pueden ayudar a equilibrar la flora intestinal. Esto es especialmente útil en personas con SII, ya que puede mejorar la digestión, reducir la inflamación y aliviar los síntomas como la diarrea o el estreñimiento. Cepas como Bifidobacterium y Lactobacillus han demostrado ser eficaces para mejorar la función intestinal en el SII.",
+      "Fibra: La fibra soluble, como el psyllium, puede ayudar a regular los movimientos intestinales y aliviar tanto el estreñimiento como la diarrea. La fibra soluble se disuelve en agua y forma una especie de gel que puede suavizar las heces, facilitando su paso. Sin embargo, es importante empezar con dosis bajas e incrementarlas gradualmente para evitar la hinchazón y los gases.",
+      "Glutamina: La glutamina es un aminoácido que juega un papel crucial en la salud intestinal. Ayuda a reparar la mucosa intestinal y puede reducir la inflamación en el intestino. En personas con SII, la glutamina puede ayudar a mantener la integridad de la pared intestinal y mejorar la absorción de nutrientes.",
+      "Cúrcuma (curcumina): La cúrcuma tiene propiedades antiinflamatorias que pueden ser útiles para reducir la inflamación intestinal asociada con el SII. La curcumina, su principal compuesto activo, puede ayudar a aliviar el dolor abdominal y las molestias digestivas.",
+      "Jengibre: El jengibre es conocido por sus propiedades digestivas y antiinflamatorias. Puede aliviar los síntomas del SII como el dolor abdominal y las náuseas, y también tiene efectos relajantes sobre el sistema digestivo. Tomarlo en forma de té o en suplementos puede ser útil para calmar el malestar.",
+      "Magnesio: El magnesio tiene efectos relajantes sobre los músculos intestinales y puede ser beneficioso para las personas con SII, especialmente aquellas que experimentan estreñimiento. Además, el magnesio ayuda a reducir el estrés, que es un factor que puede agravar el SII."
     ]
   },
   "intolerancias": {
@@ -176,6 +224,10 @@
     "soluciones": [
       "Evitar los alimentos que causan problemas",
       "Consultar a un médico para pruebas específicas"
+    ],
+    "consejos": [
+      "Enzimas digestivas: como la lactasa (para la intolerancia a la lactosa) o la amilasa (para la intolerancia al gluten), que ayudan a descomponer los alimentos difíciles. de digerir.",
+      "El DAO (Diamina Oxidasa)** es una enzima responsable de descomponer las aminas biógenas, como la histamina, en el organismo. Si tienes intolerancia a la histamina o deficiencia de DAO, evita alimentos ricos en histamina. Algunos alimentos tienen niveles elevados de histamina, como quesos curados, embutidos, vino tinto, cerveza, pescados curados o fermentados y alimentos en conservación. Reducir su consumo puede aliviar los síntomas. Existen complementos que contienen esa enzima poder consumir algunos alimentos de los que habitualmente nos privamos."
     ]
   },
   "microbiota": {
@@ -198,6 +250,12 @@
     "soluciones": [
       "Mantener una dieta rica en fibra y probióticos",
       "Evitar el uso innecesario de antibióticos"
+    ],
+    "consejos": [
+      "No consumir nunca antibióticos si no se refuerza la microbiota con un probiótico adecuado, evitaremos efectos indeseables como diarrea, candidiasis o aftas bucales y además evitaremos que tener resistencias a los antibióticos",
+      "En caso de consumo de medicamentos como antidepresivos, ansiolíticos, etc reforzaremos nuestra microbiota.",
+      "Evitar el estrés continuado pues puede provocarnos una bajada inmunitaria por perdida de actividad de nuestra microbiota.",
+      "Dieta adecuada a nuestro gasto calórico, evitando excesos tanto en comida como en ejercicio."
     ]
   }
 }
