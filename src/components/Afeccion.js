@@ -1,4 +1,4 @@
-import { StyleSheet, View, SafeAreaView, ScrollView, Image, TouchableOpacity, Text } from 'react-native';
+import { StyleSheet, View, SafeAreaView, ScrollView, Image, TouchableOpacity, Text, Linking } from 'react-native';
 import { Card } from 'react-native-paper';
 import texts from '../../texts.json';
 import * as ScreenOrientation from 'expo-screen-orientation';
@@ -28,7 +28,7 @@ export default function Afeccion({ route }) {
       case 'diarrea.png':
         return require('./../../assets/diarrea.png');
       case 'hinchazon.png':
-        return require('./../../assets/hinchazon.png');
+        return require('./../../assets/sibo.png');
       case 'enfermedad intestinal.png':
         return require('./../../assets/enfermedad intestinal.png');
       case 'iintolerancia.png':
@@ -76,6 +76,11 @@ export default function Afeccion({ route }) {
       </Card.Content>
     </Card>
   );
+  
+  const handleEmailPress = () => {
+    const email = 'mailto:?subject=Consulta&body=Hola, tengo una consulta sobre...';
+    Linking.openURL(email).catch((err) => console.error('Error al abrir el correo:', err));
+  };
 
   return (
     <SafeAreaView style={styles.container}>
@@ -88,6 +93,9 @@ export default function Afeccion({ route }) {
           <Text style={styles.buttonText}>{showConsejos ? 'Ocultar Consejos' : 'Mostrar Consejos'}</Text>
         </TouchableOpacity>
         {showConsejos && renderConsejos()}
+        <TouchableOpacity style={styles.button} onPress={handleEmailPress}>
+          <Text style={styles.buttonText}>Enviar Correo</Text>
+        </TouchableOpacity>
         {renderFooter()}
       </ScrollView>
     </SafeAreaView>

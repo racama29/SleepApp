@@ -23,7 +23,7 @@
       }
     },
     "web": {
-      "favicon": "./assets/icono.png"
+      "favicon": "./assets/Logo-Sanafarmacia-v1.png"
     },
     "extra": {
       "eas": {

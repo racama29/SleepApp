@@ -7,7 +7,7 @@ const data = [
   { key: 'reflujo', title: 'Reflujo', image: require('./../../assets/reflujo.png') },
   { key: 'estrenimiento', title: 'Estreñimiento', image: require('./../../assets/estreñimiento.png') },
   { key: 'diarrea', title: 'Diarrea', image: require('./../../assets/diarrea.png') },
-  { key: 'sibo', title: 'Sibo', image: require('./../../assets/hinchazon.png') },
+  { key: 'sibo', title: 'Sibo', image: require('./../../assets/sibo.png') },
   { key: 'sii', title: 'Síndrome del Intestino Irritable', image: require('./../../assets/enfermedad intestinal.png') },
   { key: 'intolerancias', title: 'Intolerancias alimentarias', image: require('./../../assets/iintolerancia.png') },
   { key: 'microbiota', title: 'Microbiota Intestinal', image: require('./../../assets/sibo.png') },
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderRadius: 10,
     elevation: 3,
-    margin: 30,
+    margin: 20,
     backgroundColor: '#1983c6',
   },
   image: {
