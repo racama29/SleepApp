@@ -78,7 +78,7 @@ export default function Afeccion({ route }) {
   );
   
   const handleEmailPress = () => {
-    const email = 'mailto:?subject=Consulta&body=Hola, tengo una consulta sobre...';
+    const email = 'mailto:?subject=Consejo Sanafarmacia de Salud Digestiva&body=En Sanafarmacia estamos trabajando para mejorar tu salud digestiva\n Para ello hemos diseñado esta nueva campaña, queremos ayudar a los pacientes a entender mejor sus síntomas y recibir consejos sobre las patologías digestivas más comunes.\n Aquí tienes la información solicitada sobre su área de mejora.';
     Linking.openURL(email).catch((err) => console.error('Error al abrir el correo:', err));
   };
 

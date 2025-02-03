@@ -18,16 +18,16 @@
     "android": {
       "package": "com.rafa.farmaapp",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/Logo-Sanafarmacia-v1.png",
+        "foregroundImage": "./assets/icono.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/Logo-Sanafarmacia-v1.png"
+      "favicon": "./assets/icono.png"
     },
     "extra": {
       "eas": {
-        "projectId": "b0a09a2d-1ea3-4a9c-abf8-3d227869ab50"
+        "projectId": "d46908ab-030d-4240-9b57-f9e6ec7c87b7"
       }
     }
   }
