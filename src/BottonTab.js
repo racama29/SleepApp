@@ -12,4 +12,4 @@ export default function BottonTab() {
       <Stack.Screen name="Afeccion" component={Afeccion} />
     </Stack.Navigator>
   );
-}
+} 
